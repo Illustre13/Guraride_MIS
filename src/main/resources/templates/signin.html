@@ -3,7 +3,7 @@
 
 >
 <head>
-  <title>Register - Bike</title>
+  <title>Sign In</title>
   <link href="css/signin.css" rel="stylesheet" />
   <link rel="stylesheet" href="~/node_modules/fortawesome/fontawesome-free/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -44,7 +44,7 @@
           <p th:if="${#fields.hasErrors('password')}" class="text-danger" th:errors="*{password}"></p>
 
           <button type="submit" class="btn btn-primary">login</button>
-          <p class="message">Not registered? <a type="text/css">Create an account</a></p>
+          <p class="message">Not registered? <a th:href="@{/signup}">Create an account</a></p>
           <p class="message">Back To Home <a th:href="@{/}">Page...</a></p>
         </form>
       </div>
