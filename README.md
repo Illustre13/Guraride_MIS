@@ -52,3 +52,35 @@ C[Rentals] -- refer to --> B
 C -- have a record of --> A
 ```
 <img width="696" alt="Screenshot 2023-05-16 at 19 18 33" src="https://github.com/Illustre13/Guraride_MIS/assets/100227921/446fb81e-c5c0-4146-ac80-b3dfe9caec67">
+
+# 6. User Documentation
+  - > To access the deployed project got to `https://bertin-app.herokuapp.com`
+  - > To go to the signup page for the users, go to `https://bertin-app.herokuapp.com/signup`
+      **Note: **Here you can signup and create an account as either the worker or a renter.
+  - > To go to the login page for both the admin and the users to enter in the system, go to `https://bertin-app.herokuapp.com/signin`
+      **Note: **On `email` and `password` Use:  `ndahayosibertin17@gmail.com` and `bertin123` to login as an admin.
+  - > After signin the admin will be redirected to `https://bertin-app.herokuapp.com/dashboard`
+  - > The Guraride Staff will be redirected to `https://bertin-app.herokuapp.com/worker-dashboard`
+      **Note: **On `email` and `password` Use:  `charles@gmail.com` and `charles123` to login as a worker(GuraRide Staff).
+  - > A normal user who want to rent or reserve the bike after signin will be redirected to `https://bertin-app.herokuapp.com/user-dashboard`
+      **Note: **On `email` and `password` Use:  `jean@gmail.com` and `jean@123` to login as a renter(Normal User).
+- Further Explanation
+    The application uses 3 personnel; which include the admin, worker and renter. User should first provide their credentials ( email and password ) for authentication so that they can access the privileged resources and each user will be redirected to a respective page according to his/her role in the application. 
+    - The Admin Dashboard View, where he/she has access to view/edit/delete all the user information, and bikes information.
+    - Admin User can also view the bike information and also register a new bike to the system.
+    - The Worker ( GuraRide Staff ) can view all the users who have rented or reserved the bikes, with their information.
+    - The Guraride Staff can also view all bike information and be able to delete/edit the bikes and also register new bikes.
+    - The GuraRide Staff will be the one to check and approve if bikes have been returned by the users, and record them here.for all the bike which have not been returned there will be that button for the staff to approve and the time the users returns the bike.
+    - The User View of all the bikes available for rent and reservation
+    - User can view his/her reserved bikes status.
+    - The User view of the rented bikes, and the status whether their returned them or not.
+    - For the addition all the user should be able to logout to the system and I have applied authorization rules to privileged paths so that only privileged user can view the page.
+    - Also I have applied validation on the form submission to ensure that inputs from the user side are well validated, both when the password is not correct or user don’t have an account.
+
+- Click [here...](https://docs.google.com/document/d/1tjANIiQB3cPG8GQo0zirnLWRVGxisjnbBXoKLTSz3Ms/edit) to access the full project documentation.
+
+
+# 7. Technical Documentation
+
+
+
