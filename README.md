@@ -82,5 +82,14 @@ C -- have a record of --> A
 
 # 7. Technical Documentation
 
-
-
+This is a web application project and was built using Spring Boot, an open-source Java framework that is designed to simplify the development of Java applications, particularly web applications and microservices.
+- **7.1 Languages that were used in this project**
+	> For the backend I have used Java specifically Spring Boot and I have used HTML, CSS together with BootStrap for the frontend.
+- **7.2 Frameworks/modules and dependencies that were used in the project are:**
+  1. Spring Boot
+  2. Spring Web
+  3. Spring Security
+  4. Thymeleaf
+  5. Maven
+  6. Lombook
+  7. PostgreSQL
