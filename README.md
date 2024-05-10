@@ -9,7 +9,7 @@ By leveraging the GuraRide Bike Rental Management System, customers gain the abi
 From GuraRide's perspective, the management system offers a range of powerful features to streamline their operations. Staff members can log into the system, view reservations, and efficiently handle the confirmation or rejection of reservations. This functionality provides GuraRide with centralized control and a comprehensive overview of their rental activities. Additionally, the system assists GuraRide in the check-in and check-out processes. When a customer arrives to pick up their bike, GuraRide staff can easily confirm the reservation and complete the bike handover process. The system also aids in tracking the return of bikes, enabling staff to efficiently manage the availability and location of each bike in real-time.
 Overall, the GuraRide Bike Rental Management System serves as a valuable tool in enhancing the efficiency and customer experience of GuraRide's bike rental services. With its user-friendly interface, customers can conveniently rent bikes online and monitor their reservations, while GuraRide gains the ability to efficiently manage their inventory, track bike locations, and ensure seamless operations. By leveraging this digital solution, GuraRide can elevate their rental business, optimize resource allocation, and deliver an exceptional customer service experience in Kigali City.
 
-# 2. Technical Used
+# 2. Technology Used
 
 This is a web application project and was built using Spring Boot, an open-source Java framework that is designed to simplify the development of Java applications, particularly web applications and microservices.
 - **2.1 Languages that were used in this project**
